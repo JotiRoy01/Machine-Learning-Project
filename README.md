@@ -27,3 +27,13 @@ conda create --prefix ./<envname> python==3.10 -y
 ```bash
 conda info --envs
 ```
+
+* Create requirements.txt file
+```bash
+touch requirements.txt
+```
+* Install requirements.txt
+```bash
+pip install -r requirements.txt
+```
+

@@ -72,3 +72,8 @@ docker ps
 ```bash
 docker stop <container_id>
 ```
+* Create folder
+```bash
+mkdir -p .github/workflows
+touch .githup/workflow/main.yaml
+```

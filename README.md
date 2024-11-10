@@ -44,10 +44,11 @@ pip install -r requirements.txt
 git remote -v
 ```
 * To setup CI/CD pipeline in heroku we need 3 information
+```bash
 1. HEROKU_EMAIL: jotiroy2811@gmail.com
 2. HEROKU_API_KEY: HRKU-2209da98-d709-435e-80c3-3b08bdb9a45d
 3. HEROKU_APP_NAME: first-ml-regression-app
-
+```
 BUILD DOCKER IMAGE
 ```bash
 docker build -t <image_name>:<tagname> .

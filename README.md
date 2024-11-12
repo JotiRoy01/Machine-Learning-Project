@@ -76,4 +76,11 @@ docker stop <container_id>
 ```bash
 mkdir -p .github/workflows
 touch .githup/workflow/main.yaml
+mkdir housing
+touch housing/__init__.py
+touch setup.py
+```
+* Intall setup.py tools
+```bash
+python setup.py install
 ```

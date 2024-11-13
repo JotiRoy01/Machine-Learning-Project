@@ -84,3 +84,7 @@ touch setup.py
 ```bash
 python setup.py install
 ```
+* Intall Package or our own Library in that case "housing"
+```bash
+pip install -e .
+```

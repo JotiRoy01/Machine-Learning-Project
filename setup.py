@@ -15,7 +15,7 @@ def get_requirements_list()->List[str] :
 
 setup(
     name = PROJECT_NAME,
-    version="0.0.1",
+    version="0.0.2",
     author = AUTHOR,
     description= "This is a first ml project",
     packages=["housing"],
@@ -23,6 +23,4 @@ setup(
 
 )
 
-if __name__ == "__main__" :
-    print(get_requirements_list())
-    
+

@@ -88,3 +88,11 @@ python setup.py install
 ```bash
 pip install -e .
 ```
+* create bash file for initial setup
+```bash
+touch init_setup.sh
+```
+* To run init_setup.sh file
+```bash
+bash init_setup.sh
+```

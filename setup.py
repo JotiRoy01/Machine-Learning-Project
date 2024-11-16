@@ -11,7 +11,7 @@ def get_requirements_list()->List[str] :
     return this function is going to return a list which contain name of lebraries mentioned
     in requirements.txt file"""
     with open(REQUIREMENT_FILE_NAME) as req :
-        return req.readlines()
+        return req.readlines().remove("-e .")
 
 setup(
     name = PROJECT_NAME,

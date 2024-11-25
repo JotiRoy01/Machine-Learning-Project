@@ -96,3 +96,9 @@ touch init_setup.sh
 ```bash
 bash init_setup.sh
 ```
+* Create Folder
+```bash
+ mkdir housing/util
+ touch housing/util/util.py
+ touch housing/util/__init__.py
+ ```

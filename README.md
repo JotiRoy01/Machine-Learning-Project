@@ -102,3 +102,8 @@ bash init_setup.sh
  touch housing/util/util.py
  touch housing/util/__init__.py
  ```
+
+ * Downlaod package
+ ```bash
+ pip install six
+ ```
